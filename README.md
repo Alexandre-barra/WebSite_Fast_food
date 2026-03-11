@@ -2,7 +2,7 @@
 #  NueveFood — Documentation Technique
 
 > Site web de restauration rapide · Commande en ligne · Livraison à domicile  
-> **Version 1.0 — Mars 2026**
+
 
 ---
 
