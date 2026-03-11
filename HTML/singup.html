@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="singup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="short icon" href="image/logo_nueve2.png">
+</head>
+<body>
+    <form action="signup.php" method="post" enctype="multipart/form-data">
+    <div class="hero">
+
+        <div class="login_form">
+
+            <h1>S'inscrire</h1>
+
+            <form class="input_box">
+                <input type="text" name="nomUtilisateur" class="field" placeholder="Nom" required>
+                <input type="password"  name="MdpUtilisateur" class="field" placeholder="Mot de passe" maxlength="10" required>
+                <input type="email"  name="mail" class="field" placeholder="Email" required>
+                <input type="checkbox" class="check_box"><p>Se souvenir de moi</p>
+                <button type="submit" class="submit_btn">S'inscrire</button>
+
+                <div class="social_icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-google"></i>
+                </div>
+
+                <div class="tag">
+                    <span>Nouvel utilisateur?</span>
+                    <a href="login.html">se connecter</a>
+                </div>
+    
+         </form>
+
+        </div>
+    
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="short icon" href="image/logo_nueve2.png">
+    <link rel="stylesheet" href="Bienvenue.css">
+    <link rel="stylesheet" href="singup.css">
+    <title>Bienvenue a vous </title>
+<style>
+    table,tr,td{
+        border:1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+</head>
+<body>
+    <form action="index.html" method="post" enctype="multipart/form-data">
+<center>
+<h2>Felicitations pour votre inscription</h2>
+<br><br>
+<?php
+    echo "$nomUtilisateur <br>";
+    echo "$MdpUtilisateur <br>";
+    echo "$mail <br>";
+
+?>
+</center>
+<center><section id="Home">
+
+    <br><nav>
+
+        <div class="logo">
+            <a href="index.html"><img src="image/logo_nueve2.png"></a>
+        </div></center>
+<center><input type="submit" name="Soumettre" placeholder="Envoyer" >Retour a la page d'acceuil
+</body>
+</html>
